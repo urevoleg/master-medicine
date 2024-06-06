@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>WEBmedSTAT</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+<div class="header">
+        <img width="100%" src="https://storage.yandexcloud.net/public-bucket-6/livsi-parsing.png" alt="header-photo">
+    <h1>Как данные Росстата парсились <a href="https://rosstat.gov.ru/folder/210/document/13218">отсюда</a></h1>
+</div>
+</div>
+<div class="container">
+<h2>Описание данных</h2>
+
+Данные разложены по папкам, соответствующие годам:
+    <ul>
+        <li><b>2001</b></li>
+        <li><b>2005</b></li>
+        <li><b>...</b></li>
+    </ul>
+
+Внутри года, папки соответствуют разделам на странице года:
+
+<img width="100%" src="https://storage.yandexcloud.net/public-bucket-6/mapping-folders-chapter.png">
+<br>
+На странице может быть деление внутри раздела, внутри папок такого деления нет.
+    <hr style="border: 2px solid grey;" />
+<br>
+</div>
+<div class="container">
+<h2>Naming</h2>
+
+Каждый файл имеет уникальное имя (определяется title той страницы, с которой парсились данные), пример:
+<br>
+<img width="100%" src="https://storage.yandexcloud.net/public-bucket-6/naming.png">
+
+<br>
+Тк у файловой системы есть ограничение на длину имени, то некоторые файлы имеют названия в виде хеша, пример:
+    <ul>
+        <li>35494809f59de5db861479b48de948c8.csv</li>
+    </ul>
+
+В таком случае, маппинг на человекочитаемое имя записан в таблице `names_mapping.csv` - она есть в каждой папке (иногда пустая). Для 
+файла выше, таблица выглядит так:
+
+<table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1"></th>
+<th title="Field #2">hash</th>
+<th title="Field #3">table_name</th>
+</tr></thead>
+<tbody><tr>
+<td>0</td>
+<td>35494809f59de5db861479b48de948c8</td>
+<td>выпуск специалистов государственными и муниципальными средними специальными учебными заведениями по специальностям, входящим в группу &quot;здравоохранение&quot;</td>
+</tr>
+<tr>
+<td>1</td>
+<td>543bbb6d6e85993ba90a77c4801ed97b</td>
+<td>выпуск специалистов государственными и муниципальными высшими учебными заведениями по специальностям, входящим в группу &quot;здравоохранение&quot;</td>
+</tr>
+</tbody></table>
+<br>
+    ☝️Все файлы в кодировке <b>utf-8</b>, разделитель строк <b>запятая</b>
+<br>
+    <hr style="border: 2px solid grey;" />
+</div>
+
+<div class="container">
+<h2>Конфигурация парсера</h2>
+
+    Конфиг парсера находится в файле <b>zdrav.yml</b>. Заполняется на основе ручного анализа страниц сайта:
+    <br>
+    <img width="100%" src="https://storage.yandexcloud.net/public-bucket-6/parser-config.png">
+<br><br>
+
+    Настройки:
+    <ul>
+        <li><b>name</b> - логическое имя секции внутри yml конфига - ничего не значит</li>
+        <li><b>item_name</b> - название раздела на сайте = название папки</li>
+        <li><b>start_url</b> - начальная страница для данного раздела</li>
+        <li><b>end_url</b> - конечная страница</li>
+        <li><b>year</b> - год</li>
+        <li><b>page_inc</b> - инкремент для перебора страниц страниц (для разных годов порядок страниц отличается)</li>
+    </ul>
+
+    <br>
+    <p> Так хорошо было только до 2011 года, после статистика выкладывалась в doc\docx файлах</p><br>
+
+    <h3> Наступил 2013 ...</h3>
+    <img width="50%" src="https://storage.yandexcloud.net/public-bucket-6/kung-fu-panda-1.jpg"><br>
+    <p>Это было настоящее кунг-фу</p>
+
+    Особенности парсинга doc\docx файлов:
+    <ul>
+        <li>Ручная конвертация doc -> docx</li>
+        <li>Для парсинга docx используется python библиотека <a href="https://python-docx.readthedocs.io/en/latest/">python-docx</a> </li>
+        <li>Название для папок и таблиц используется на основе текста перед таблицей (или первого текста в документе), поэтому может быть не полным
+        тк возможны переносы - ASIS</li>
+        <li>Некоторые таблицы имеют продолжение (в файлах указывается как <b>Продолжение табл. 2.10</b>), такие таблицы склеиваются </li>
+        <img width="50%" src="https://storage.yandexcloud.net/public-bucket-6/master-medicine-table-concat.png">
+        <li> Ряд таблиц широкие, но разделены по ширине на разных страницах, для таких таблиц выполняется ручная разметка, перед следующим куском данных
+        добавляется тег <b>ВЕРТИКАЛЬНОЕ продолжение табл. 2.24</b> - это позволяет парсеру склеивать таблицы вертикально.
+            Также у таких таблиц есть продолжение и по высоте (или по длине), они размечаются как части исходной таблицы, например, <b>табл. 2.24.1</b> и тд.,
+        сохраняются под аналогичным именем. Таким таблицам необходим постпроцессинг (грубо, их надо собрать в единое целое)</li>
+        <li>в 2013 году есть таблица 6.30 - она имеет кривую структуру, поэтому добавлен тег <b>ПРОПУСК</b>  - это позволяет парсеру не осуществлять парсинг таких таблиц,
+        но они куски таких таблиц собираются вместе и сохраняются с префиксом <b>пропуск</b>, указанием номера таблицы и индексом части, например <b>пропуск 6.30.1</b></li>
+        <img width="50%" src="https://storage.yandexcloud.net/public-bucket-6/master-medicine-skip-table.png">
+    </ul>
+
+<hr style="border: 2px solid black;" />
+
+</div>
+<div class="container">
+<img src="https://storage.yandexcloud.net/public-bucket-6/hardcore.jpeg">
+<br>
+<h5>ps: мои чувства, после парсинга</h5>
+
+<hr style="border: 2px solid grey;" />
+</div>
+</body>
+</html>

@@ -1,0 +1,341 @@
+zdrav:
+  - year: 2001
+    page_inc: 10
+    sections:
+      - name: section1
+        item_name: УСЛОВИЯ ЖИЗНИ НАСЕЛЕНИЯ
+        start_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d010/i010020r.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d010/i010350r.htm
+      - name: section2
+        item_name: ДЕМОГРАФИЧЕСКАЯ СИТУАЦИЯ
+        start_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d010/i010370r.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d010/i010510r.htm
+      - name: section3
+        item_name: СОСТОЯНИЕ ЗДОРОВЬЯ НАСЕЛЕНИЯ
+        start_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d010/i010540r.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d010/i011670r.htm
+      - name: section4
+        item_name: ОСНОВНЫЕ ЭКОНОМИЧЕСКИЕ ПОКАЗАТЕЛИ ЗДРАВООХРАНЕНИЯ
+        start_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d010/i011680r.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d010/i011710r.htm
+      - name: section5
+        item_name: ОРГАНИЗАЦИЯ ЛЕЧЕБНО-ПРОФИЛАКТИЧЕСКОЙ ПОМОЩИ НАСЕЛЕНИЮ
+        start_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d010/i011730r.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d010/i011990r.htm
+      - name: section6
+        item_name: ОРГАНИЗАЦИЯ ЛЕЧЕБНО-ПРОФИЛАКТИЧЕСКОЙ ПОМОЩИ НАСЕЛЕНИЮ
+        start_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d020/i020000r.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d020/i020050r.htm
+      - name: section7
+        item_name: САНАТОРНО-КУРОРТНОЕ ЛЕЧЕНИЕ И ОТДЫХ
+        start_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d020/i020070r.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d020/i020170r.htm
+      - name: section8
+        item_name: ФИЗИЧЕСКАЯ КУЛЬТУРА И СПОРТ
+        start_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d020/i020190r.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d020/i020230r.htm
+      - name: section9
+        item_name: ФИНАНСЫ ЗДРАВООХРАНЕНИЯ
+        start_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d020/i020250r.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d020/i020340r.htm
+      - name: section10
+        item_name: ИНВЕСТИЦИИ В РАЗВИТИЕ ЗДРАВООХРАНЕНИЯ
+        start_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d020/i020360r.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d020/i020480r.htm
+      - name: section11
+        item_name: ЗАНЯТОСТЬ И ОПЛАТА ТРУДА В ЗДРАВООХРАНЕНИИ, ПОДГОТОВКА КАДРОВ
+        start_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d020/i020490r.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d020/i021220r.htm
+      - name: section12
+        item_name: ПОТРЕБИТЕЛЬСКИЙ РЫНОК ТОВАРОВ И УСЛУГ ЗДРАВООХРАНЕНИЯ
+        start_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d020/i020810r.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d020/i021000r.htm
+      - name: section13
+        item_name: МЕЖДУНАРОДНЫЕ СРАВНЕНИЯ
+        start_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d020/i021010r.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B01_34/IssWWW.exe/Stg/d020/i021070r.htm
+  - year: 2005
+    page_inc: 1
+    sections:
+      - name: section1
+        item_name: Демографическая ситуация
+        start_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/01-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/01-20.htm
+      - name: section2
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/02-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/02-99.htm
+      - name: section3
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/02-99-0.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/02-99-7.htm
+      - name: section4
+        item_name: Ресурсы и деятельность учреждений здравоохранения
+        start_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/03-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/03-35.htm
+      - name: section5
+        item_name: Занятость и оплата труда в здравоохранении, подготовка кадров
+        start_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/04-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/04-33.htm
+      - name: section6
+        item_name: Отдых, физическая культура и спорт
+        start_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/05-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/05-07.htm
+      - name: section7
+        item_name: Отдых, физическая культура и спорт
+        start_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/05-08-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/05-08-2.htm
+      - name: section8
+        item_name: Отдых, физическая культура и спорт
+        start_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/05-09.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/05-09.htm
+      - name: section9
+        item_name: Условия жизни населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/06-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/06-36.htm
+      - name: section10
+        item_name: Основные экономические показатели здравоохранения
+        start_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/07-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/07-03.htm
+      - name: section11
+        item_name: Финансы здравоохранения
+        start_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/08-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/08-08.htm
+      - name: section12
+        item_name: Основные фонды и инвестиции по отрасли "Здравоохранение "
+        start_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/09-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/09-13.htm
+      - name: section13
+        item_name: Потребительский рынок товаров и услуг здравоохранения
+        start_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/10-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/10-16.htm
+      - name: section14
+        item_name: Показатели субъективной оценки здоровья и медицинского обслуживания
+        start_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/11-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B05_34/IssWWW.exe/Stg/d010/11-07.htm
+  - year: 2007
+    page_inc: 1
+    sections:
+      - name: section1
+        item_name: Демографическая ситуация
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/01-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/01-22.htm
+      - name: section2
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-26.htm
+      - name: section3
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-27-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-27-2.htm
+      - name: section4
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-28.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-28.htm
+      - name: section5
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-29-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-29-2.htm
+      - name: section6
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-30.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-68.htm
+      - name: section7
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-69-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-69-2.htm
+      - name: section8
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-70.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-77.htm
+      - name: section9
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-78-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-78-2.htm
+      - name: section10
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-79.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-92.htm
+      - name: section11
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-93-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-93-2.htm
+      - name: section12
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-94-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-94-2.htm
+      - name: section13
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-95.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-97.htm
+      - name: section14
+        item_name: Ресурсы и деятельность учреждений здравоохранения
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d02/3-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d02/3-34.htm
+      - name: section15
+        item_name: Занятость и оплата труда в здравоохранении, подготовка кадров
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d02/4-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d02/4-28.htm
+      - name: section16
+        item_name: Отдых, физическая культура и спорт
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d02/5-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d02/5-09.htm
+      - name: section17
+        item_name: Условия жизни населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d02/06-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d02/06-36.htm
+      - name: section18
+        item_name: Основные экономические показатели здравоохранения
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d02/07-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d02/07-40.htm
+  - year: 2009
+    page_inc: 1
+    sections:
+      - name: section1
+        item_name: Демографическая ситуация
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/01-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/01-22.htm
+      - name: section2
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-22.htm
+      - name: section3
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-23-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-23-2.htm
+      - name: section4
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-24.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-24.htm
+      - name: section5
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-25-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-25-1.htm
+      - name: section6
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-26.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-62.htm
+      - name: section7
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-63-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-63-2.htm
+      - name: section8
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-64.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-70.htm
+      - name: section9
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-71-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B07_34/IssWWW.exe/Stg/d01/02-71-2.htm
+      - name: section10
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-72.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-82.htm
+      - name: section11
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-83-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-83-2.htm
+      - name: section12
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-84-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-84-2.htm
+      - name: section13
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-85.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/02-96.htm
+      - name: section14
+        item_name: Ресурсы и деятельность учреждений здравоохранения
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/03-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/03-15.htm
+      - name: section15
+        item_name: Ресурсы и деятельность учреждений здравоохранения
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/03-16-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/03-16-2.htm
+      - name: section16
+        item_name: Ресурсы и деятельность учреждений здравоохранения
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/03-17-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/03-17-2.htm
+      - name: section17
+        item_name: Ресурсы и деятельность учреждений здравоохранения
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/03-18.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d1/03-33.htm
+      - name: section18
+        item_name: Занятость и оплата труда в здравоохранении, подготовка кадров
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d2/04-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d2/04-24.htm
+      - name: section19
+        item_name: Отдых, физическая культура и спорт
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d2/05-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d2/05-12.htm
+      - name: section20
+        item_name: Условия жизни населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d2/06-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d2/06-36.htm
+      - name: section21
+        item_name: Основные экономические показатели здравоохранения
+        start_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d2/07-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B09_34/IssWWW.exe/Stg/d2/07-44.htm
+  - year: 2011
+    page_inc: 1
+    sections:
+      - name: section2
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/01-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/01-22.htm
+      - name: section3
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/01-23-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/01-23-2.htm
+      - name: section4
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/01-24.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/01-24.htm
+      - name: section5
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/01-25-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/01-25-1.htm
+      - name: section6
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/01-26.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/01-79.htm
+      - name: section7
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/01-80-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/01-80-2.htm
+      - name: section8
+        item_name: Состояние здоровья населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/01-81.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/01-103.htm
+      - name: section14
+        item_name: Ресурсы и деятельность учреждений здравоохранения
+        start_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/02-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/02-15.htm
+      - name: section15
+        item_name: Ресурсы и деятельность учреждений здравоохранения
+        start_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/02-16-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/02-16-2.htm
+      - name: section16
+        item_name: Ресурсы и деятельность учреждений здравоохранения
+        start_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/02-17-1.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/02-17-2.htm
+      - name: section17
+        item_name: Ресурсы и деятельность учреждений здравоохранения
+        start_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/02-18.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/02-33.htm
+      - name: section18
+        item_name: Занятость и оплата труда в здравоохранении, подготовка кадров
+        start_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/3-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d01/3-25.htm
+      - name: section19
+        item_name: Отдых, физическая культура и спорт
+        start_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d02/4-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d02/4-12.htm
+      - name: section20
+        item_name: Условия жизни населения
+        start_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d02/5-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d02/5-39.htm
+      - name: section21
+        item_name: Основные экономические показатели здравоохранения
+        start_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d02/6-01.htm
+        end_url: https://rosstat.gov.ru/bgd/regl/B11_34/IssWWW.exe/Stg/d02/6-45.htm
+
