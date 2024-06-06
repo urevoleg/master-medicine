@@ -1,0 +1,33 @@
+# common
+requests
+
+# data
+jupyterlab
+pandas
+
+# file i\o
+openpyxl
+xlsxwriter
+lxml
+html5lib
+
+# data processing
+bs4
+
+
+#db
+psycopg2-binary
+sqlalchemy
+
+# viz
+matplotlib
+seaborn
+tqdm
+
+
+# web
+selenium
+
+# secrets
+python-dotenv
+
